@@ -1,0 +1,4 @@
+# Single dependency: the well-reviewed `cryptography` library (PyCA), which wraps
+# OpenSSL for AEAD ciphers, X25519/Ed25519, HKDF, and X.509 certificate handling.
+# No hand-rolled crypto anywhere in this repo.
+cryptography>=42.0
